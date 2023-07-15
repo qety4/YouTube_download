@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=PT+Sans+Caption&family=Red+Hat+Display&family=Righteous&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(355deg, rgba(40,47,47,0.9016018306636155) 0%, rgba(232,232,232,1) 100%);
+  height: 100vh;
+}
+#sign1{
+  font-family: 'Creepster';
+  font-size: 3.8rem;
+  margin-top: 5rem;
+  text-shadow:-3px 3px #f96502;
+}
+
+h1, p{
+  font-family: 'Red Hat Display';
+}
+.form_button{
+  font-family: 'Righteous';
+  
+}
+.download_button{
+  font-family: 'PT Sans Caption';
+  border: 1px solid black;
+  color: white;
+  background-color: #f96502;
+  padding: 0.4rem;
+  border-radius: 5%;
+  text-shadow: 3px black;
+  width: 10rem;
+  height: 2.4rem;
+  margin: 0.3rem;
+}
+.anchor{
+  text-decoration: none;
+  color: white;
+}
+.iframe{
+  border: none;
+}
+.input{
+  text-align: center;
+  width: 38rem;
+  height: 2rem;
+  font-family: 'Red Hat Display';
+  border-radius: 3%;
+  border: none;
+}
+#convert{
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: white;
+  border: none;
+  background-color: rgb(132, 132, 132);
+  border-radius: 3%;
+}
